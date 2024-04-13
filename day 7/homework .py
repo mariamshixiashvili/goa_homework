@@ -6,6 +6,8 @@ print(14>3)
 
 #True and False = False
 #True or False = True
+#True and True = True
+#False and False = False
 
 print(True and False) #False
 print(True or False) #True
@@ -13,4 +15,4 @@ print(True or False) #True
 str = "basketball"
 int = 20
 float = 10.5
- print(type("basketball"))
+
