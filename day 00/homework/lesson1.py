@@ -41,15 +41,6 @@ forward(200)
 end_fill()
 
 
-speed(30)
-width(7)
-color("purple")
-forward(200)
-left(90)
-
-forward(200)
-left(90)
-
 
 
 exitonclick()

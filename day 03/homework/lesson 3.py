@@ -1,62 +1,48 @@
-from turtle import *
+from turtle import*
 
 #we want to paint a house 
 
 #step 1: draw a square
-
 shape("turtle")
-speed(30)
+#speed(30)
 width(7)
 color("purple")
-
-forward(200)
+forward(100)
 left(90)
 
-forward(200)
+forward(100)
 left(90)
 
-forward(200)
+forward(100)
 left(90)
 
-forward(200)
+forward(100)
 left(90)
 #end of square
 
 #drawing a door
 
-forward(70)
+forward(40)
 color("yellow")
 begin_fill()
 left(90)
-forward(120)
+forward(50)
 right(90)
-forward(60)
+forward(20)
 right(90)
-forward(120)
-
-
-
-penup()
-goto(200, 200)
-pendown()
-
-color("red")
-begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
+forward(50)
 end_fill()
 
-#step 2: draw a square
-
-
 penup()
-goto(200 , 200)
+goto(100, 100)
 pendown()
 
 
-forward(200)
-right(90)
-
-
+color("red")
+forward(100)
+bgcolor("green")
+penup()
+goto(-1000,-50)
+pendown()
+color("skyblue")
+begin_fill()
